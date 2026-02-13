@@ -63,4 +63,13 @@ public class Wypiek {
         this.czasPieczenia = czasPieczenia;
     }
 
+    @Override
+    public String toString() {
+        return "Wypiek" + "\n" +
+                "id=" + id + ",\n" +
+                nazwa + ",\n" +
+                "Skladniki: " + skladniki + ",\n" +
+                "Temperatura Pieczenia: " + temperaturaPieczenia + "C ,\n" +
+                "Czas Pieczenia: " + czasPieczenia;
+    }
 }
